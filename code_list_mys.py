@@ -97,7 +97,7 @@ elif st.session_state.game_over:
     # (엔딩 분기... 동일)
     if st.session_state.love_level >= 20:
         st.image(IMAGE_PATH + 'pepe_suc.png')
-        st.success("### (1년 후.. ) \n ### 오늘은 000의 1주년이다. 얼른 이벤트 준비하러 가야지 ㅎ\n\n\n  축하합니다! 그녀와 이어졌습니다! 💖")
+        st.success("### (1년 후.. ) \n ### 오늘은 아린과의 1주년이다. 얼른 이벤트 준비하러 가야지 ㅎ\n\n\n  축하합니다! 그녀와 이어졌습니다! 💖")
     elif st.session_state.love_level >= 7:
         st.image(IMAGE_PATH + 'pepe_friend.png')
         st.error("### (1년 후.. ) \n ### 오늘은 아린의 생일. 그땐 좋았는데,, 이젠 그저 친구로 남기로 했다. \n\n 아린은 당신과 친구로 남기로 했습니다")
